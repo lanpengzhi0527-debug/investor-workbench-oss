@@ -1,16 +1,16 @@
 ---
-name: Security boundary report
-description: Report a potential security issue in the public OSS boundary.
-title: "[security] "
+name: Security boundary review
+description: Propose a change that affects privileged behavior or trust boundaries.
+title: "[security-boundary] "
 labels: security
 ---
 
-Please do not include credentials, private financial data, or unpublished research.
+## Proposed change
 
-## Affected component
+## Trust boundary affected
 
-## Security boundary
+## New filesystem / shell / network / credential behavior
 
-## Reproduction
+## Untrusted input path
 
-## Impact
+## Test and rollback plan

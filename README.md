@@ -2,7 +2,8 @@
 
 Investor Workbench OSS is a local-first, auditable workspace for AI-assisted investment research. It separates research content, portfolio state, data provenance, and agent permissions into explicit trust boundaries so they can be inspected, tested, and extended without bundling private financial data or trade execution.
 
-![Investor Workbench OSS synthetic overview](docs/assets/overview.png)
+![Investor Workbench OSS synthetic overview](docs/assets/overview.svg)
+
 
 ## What it includes
 

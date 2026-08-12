@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Local-first, auditable investment research workspace." />
+  <title>Investor Workbench OSS</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">Investor Workbench</div>
+      <nav id="nav" aria-label="Workspace navigation"></nav>
+      <div class="safety-note">Local-first · Read-only · No trade execution</div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <strong id="page-title">Overview</strong>
+          <span class="muted">Synthetic demo data</span>
+        </div>
+        <span id="source-health" class="badge">Sources: checking</span>
+      </header>
+      <section id="app" class="workspace"></section>
+    </main>
+  </div>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

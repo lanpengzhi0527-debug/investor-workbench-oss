@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Investor Workbench OSS synthetic overview</title>
+  <desc id="desc">A synthetic, read-only investment research workspace with navigation, portfolio summary, research items, source health, and no-trade safety status.</desc>
+  <rect width="1200" height="620" fill="#ffffff"/>
+  <rect x="24" y="24" width="220" height="572" rx="12" fill="#fafafa" stroke="#dedede"/>
+  <text x="48" y="67" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111111">Investor Workbench</text>
+  <text x="48" y="112" font-family="Arial, sans-serif" font-size="15" fill="#111111">Overview</text>
+  <text x="48" y="146" font-family="Arial, sans-serif" font-size="15" fill="#666666">Portfolio</text>
+  <text x="48" y="180" font-family="Arial, sans-serif" font-size="15" fill="#666666">Research</text>
+  <text x="48" y="214" font-family="Arial, sans-serif" font-size="15" fill="#666666">Decisions</text>
+  <text x="48" y="248" font-family="Arial, sans-serif" font-size="15" fill="#666666">Data Health</text>
+  <text x="48" y="282" font-family="Arial, sans-serif" font-size="15" fill="#666666">Agents</text>
+  <text x="48" y="558" font-family="Arial, sans-serif" font-size="12" fill="#777777">Local-first · Read-only</text>
+  <text x="48" y="578" font-family="Arial, sans-serif" font-size="12" fill="#777777">No trade execution</text>
+  <text x="280" y="62" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111111">Overview</text>
+  <text x="280" y="91" font-family="Arial, sans-serif" font-size="14" fill="#666666">Synthetic demo data</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="280" y="120" width="270" height="120" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="304" y="154" font-size="13" fill="#777777">Net asset value</text>
+    <text x="304" y="198" font-size="30" font-weight="700" fill="#111111">$100,000</text>
+    <rect x="570" y="120" width="270" height="120" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="594" y="154" font-size="13" fill="#777777">Cash</text>
+    <text x="594" y="198" font-size="30" font-weight="700" fill="#111111">$18,000</text>
+    <rect x="860" y="120" width="300" height="120" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="884" y="154" font-size="13" fill="#777777">Positions</text>
+    <text x="884" y="198" font-size="30" font-weight="700" fill="#111111">3</text>
+    <rect x="280" y="264" width="560" height="276" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="304" y="302" font-size="17" font-weight="700" fill="#111111">Synthetic portfolio</text>
+    <line x1="304" y1="326" x2="816" y2="326" stroke="#e5e5e5"/>
+    <text x="304" y="360" font-size="14" fill="#111111">NOVA</text><text x="440" y="360" font-size="14" fill="#666666">Compute infrastructure</text>
+    <text x="304" y="400" font-size="14" fill="#111111">MEMX</text><text x="440" y="400" font-size="14" fill="#666666">Memory systems</text>
+    <text x="304" y="440" font-size="14" fill="#111111">GRID</text><text x="440" y="440" font-size="14" fill="#666666">Power infrastructure</text>
+    <line x1="304" y1="466" x2="816" y2="466" stroke="#e5e5e5"/>
+    <text x="304" y="504" font-size="13" fill="#666666">Fixtures only · no broker connection</text>
+    <rect x="860" y="264" width="300" height="132" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="884" y="302" font-size="17" font-weight="700" fill="#111111">Source health</text>
+    <text x="884" y="344" font-size="14" fill="#111111">Sources</text>
+    <text x="1110" y="344" text-anchor="end" font-size="14" fill="#111111">OK</text>
+    <rect x="860" y="416" width="300" height="124" rx="10" fill="#ffffff" stroke="#dedede"/>
+    <text x="884" y="454" font-size="17" font-weight="700" fill="#111111">Agent safety</text>
+    <text x="884" y="492" font-size="14" fill="#111111">Default deny</text>
+    <text x="884" y="518" font-size="13" fill="#666666">Trade / shell / credentials denied</text>
+  </g>
+</svg>
